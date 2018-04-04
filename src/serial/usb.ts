@@ -21,6 +21,7 @@ export namespace OBD2
 
 				this.setPort( port );
 				this.setOptions( options );
+				console.log(port, options);
 				this.setSerial(
 					new SerialPort( port, options, false )
 				);

@@ -51,7 +51,7 @@ export namespace OBD2
 			this.Ticker = new Ticker( this._options.delay );
 			this.Device = new Device( this._options.device );
 			this.Serial = new Serial( this._options.serial, this._options.port, {
-				baudrate : this._options.baud
+				baudRate : this._options.baud
 			});
 
 			debug( "Ready" );
